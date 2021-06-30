@@ -1,0 +1,62 @@
+// CSS of Overview Component
+
+$red: #FB4C47;
+$grey : #4B4F51;
+
+.overview-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    .overview-left{
+        display: flex;
+        img{
+            width: 450px;
+            height: 500px;
+            padding-right: 50px;
+        }
+    }
+    .overview-right{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-right: 20px;
+        padding-left: 10px;
+        padding-top: 100px;
+
+        .right-alert{
+            color: $red;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 22px;
+            margin-block-end: 0.1em !important;
+        }
+        .right-heading h2{
+            font-weight: 700;
+            font-style: normal;
+            font-size: 38px;
+            margin-block-start: 0;
+            margin-block-end: 0.1em !important; 
+        }
+        .right-message p{
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            color: $grey;
+        }
+        .overview-button{
+            width: 120px;
+            height: 40px;
+            margin-top: 20px;
+            border-radius: 20px;
+            border: none;
+            color: $red;
+            font-weight: 600;
+            font-size: 20px;
+            background: rgba(250, 86, 82, 0.15);
+            font-size: 15px;
+        }
+    }
+
+}

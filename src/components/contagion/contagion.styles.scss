@@ -1,0 +1,80 @@
+// CSS for contagion component having cards
+
+
+$grey : #4B4F51;
+$red :#FB4C47;
+
+.contagion-container{
+    width: 100%;
+    height: 500px;
+
+    .contagion-heading{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        p{
+            color: $red;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 22px;
+            margin-block-end: 0.1em !important;
+        }
+        h2{
+            font-weight: 700;
+            font-style: normal;
+            font-size: 34px;
+            margin-block-start: 0;
+            margin-block-end: 0.1em !important; 
+        }
+        span{
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            color: $grey;
+        }
+    }
+    .custom-card-container{
+        height: 450px;
+        display: flex;
+        justify-content: center;
+
+        .separate-card-class{
+            display: flex;
+            flex-direction: column;
+            margin : 50px 50px 40px 40px;
+            width: 300px;
+
+            .image-class img {
+                width: 200px;
+                height: 200px;
+                padding-left: 45px;
+            }
+            .card-content {
+                text-align: center;
+
+                .title{
+                    font-weight: 500;
+                    font-style: normal;
+                    font-size: 23px;
+                }
+                .message{
+                    font-style: normal;
+                    font-style: normal;
+                    font-size: 13px;
+                    color: $grey;
+                }
+
+                .MuiCardContent-root{
+                    padding: none;
+                }
+            }
+        }
+    }
+
+    // This will increase the size of card when we hover on that
+    .separate-card-class:hover{
+        transform: scale(1.1);
+    }
+}
+

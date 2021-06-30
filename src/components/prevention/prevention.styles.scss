@@ -1,0 +1,106 @@
+// CSS
+
+$red : #FB4C47;
+$grey: #4B4F51;
+$light-red : #FFD7D7;
+.prevention-container{
+    display: flex;
+
+    .prevention-subcontainer{
+    margin-top: 40px;
+    width: 100%;
+    .prevention-alert p{
+        text-align: center;
+        color: $red;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 22px;
+        margin-block-end: 0.1em !important;
+    }
+    .prevention-heading h2{
+        text-align: center;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 38px;
+        margin-block-start: 0;
+        margin-block-end: 0.1em !important;
+    }
+    .prevention-message{
+        text-align: center;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        color: $grey;
+    }
+    .prevention-subcontainer-two-and-four{
+        display: flex;
+        padding-top: 10px;
+        justify-content: center;
+
+        .subcontainer-left img{
+            width: 300px;
+            margin: 25px 25px 25px 25px;
+        }
+        .subcontainer-middle h3{
+            background-color: $light-red;
+            border: 1px solid $light-red;
+            border-radius: 50%;
+            color: $red;
+            padding: 3px 3px 3px 3px;
+            margin-left: 80px;
+            margin-right: 20px;
+            margin-top: 80px;
+        }
+        .subcontainer-right{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            color: $grey;
+            margin-top: 55px;
+            .heading-class{
+                font-weight: bold;
+                font-style: normal;
+                font-size: 25px;
+            }
+        }
+        
+    }
+    .prevention-subcontainer-one-and-three{
+        display: flex;
+        padding-top: 10px;
+        justify-content: center;
+
+        .subcontainer-left h3{
+            background-color: $light-red;
+            border: 1px solid $light-red;
+            border-radius: 50%;
+            color: $red;
+            padding: 3px 3px 3px 3px;
+            margin-left: 80px;
+            margin-right: 20px;
+            margin-top: 80px;
+        }
+        .subcontainer-middle{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            color: $grey;
+            margin-top: 55px;
+            .heading-class{
+                font-weight: bold;
+                font-style: normal;
+                font-size: 25px;
+            }
+        }
+        .subcontainer-right img{
+            width: 200px;
+            margin: 25px 25px 25px 25px;
+        }
+    }
+}
+    .back-image img{
+        width: 100%;
+        height: 10%;
+        margin-top: 130%;
+    }
+}

@@ -1,0 +1,47 @@
+// CSS of Header Component
+
+$red: #FB4C47;
+
+
+.header{
+    height: 22px;
+    width: 100%;
+    top: 52px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding-top: 45px;
+
+
+    .logo-container{
+        height: 100%;
+        width: 70px;
+        padding: 25px;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: normal;
+    }
+    .options{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 13%;
+
+        .option{
+            padding: 10px 15px;
+            color: $red;  
+        }
+        .option-button{
+            width: 95px;
+            height: 30px;
+            border-radius: 20px;
+            border: 2px solid $red;
+            color: $red;
+            background-color: white;
+            font-size: 15px;
+        }
+    }
+}
